@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e2dede;
+    background-color: #730b0b;
+    align-items: center;
+}
+
+header {
+    background-color: #ded6d6;
+    color: #110505;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+}
+#profile-picture {
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#profile-picture img {
+    width: 15%;
+    height: 15%;
+    border-radius: 10px;
+}
+#about-me {
+    margin-top: 20px;
+    text-align: left;
+}
+#about-me h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: black;
+}
+#about-me p {
+    margin: 0;
+    max-width: 80%;
+    text-align: justify;
+}
+@media (min-width: 768px) {
+    #about-me p {
+        max-width: 50%;
+    }
+    
+}
+@media (min-width: 480px) {
+    #about-me p {
+        max-width: 50%;
+    }
+} 
+#skills h2 {
+    color: #000;
+}  
+#skills {
+    margin-top: 20px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+}
+#contact {
+    
+}
+
+
+
+
+
